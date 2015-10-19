@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:background="#ff74ffc2"
+        >
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="0dp">
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:text="首页"
+                  android:textSize="20sp"
+                  android:gravity="center"
+                  android:textColor="@android:color/white"
+                  android:background="@drawable/titlebar"
+
+                />
+    </RelativeLayout>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+            >
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent"
+                      android:orientation="vertical"
+                >
+
+            <!--<RelativeLayout-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_marginTop="0dp">-->
+            <!--<TextView android:layout_width="match_parent" android:layout_height="match_parent"-->
+            <!--android:text="搜索栏"-->
+            <!--android:textSize="20sp"-->
+            <!--android:gravity="center"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:background="@drawable/titlebar"-->
+
+            <!--/>-->
+            <!--</RelativeLayout>-->
+
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="fill_parent"
+                          android:orientation="vertical"
+                    >
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_marginTop="10dp"
+                              android:orientation="vertical"
+                        >
+                    <RelativeLayout android:layout_width="fill_parent"
+                                    android:layout_height="40dp"
+                                    android:background="@drawable/buttonblue9"
+
+                            >
+                        <TextView android:layout_width="wrap_content"
+                                  android:layout_height="fill_parent"
+                                  android:text="换乐购"
+                                  android:textSize="20sp"
+                                  android:layout_alignParentLeft="true"
+                                  android:gravity="center"
+                                />
+                        <TextView android:layout_width="wrap_content" android:layout_height="fill_parent"
+                                  android:text="查看更多"
+                                  android:textSize="10sp"
+                                  android:layout_alignParentRight="true"
+                                  android:gravity="center"
+                                />
+
+                    </RelativeLayout>
+
+                    <GridLayout  android:columnCount="4"
+                                 android:rowCount="2"
+                                 android:orientation="horizontal"
+                                 android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical"
+                                >
+                            <ImageView
+                                    android:layout_width="65dp"
+                                    android:layout_height="80dp"
+                                    android:background="@drawable/back_color"
+                                    android:layout_margin="10dp"
+                                    android:text="pic1"
+                                    android:id="@+id/pic1"
+                                    />
+                            <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="商品标题"
+                                    android:gravity="center_horizontal"
+                                    android:id="@+id/tv_1"
+                                    android:textSize="10sp"
+                                    />
+                        </LinearLayout>
+
+                        <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                >
+                            <ImageView
+                                    android:layout_width="65dp"
+                                    android:layout_height="80dp"
+                                    android:background="@drawable/back_color"
+                                    android:layout_margin="10dp"
+                                    android:text="pic"
+                                    android:id="@+id/pic2"
+                                    />
+                            <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="商品标题"
+                                    android:gravity="center_horizontal"
+                                    android:id="@+id/tv_2"
+                                    android:textSize="10sp"
+                                    />
+                        </LinearLayout>
+                        <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                >
+                            <ImageView
+                                    android:layout_width="65dp"
+                                    android:layout_height="80dp"
+                                    android:background="@drawable/back_color"
+                                    android:layout_margin="10dp"
+                                    android:text="pic1"
+                                    android:id="@+id/pic3"
+                                    />
+                            <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="商品标题"
+                                    android:gravity="center_horizontal"
+                                    android:id="@+id/tv_3"
+                                    android:textSize="10sp"
+                                    />
+                        </LinearLayout>
+                        <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                >
+                            <ImageView
+                                    android:layout_width="65dp"
+                                    android:layout_height="80dp"
+                                    android:background="@drawable/back_color"
+                                    android:layout_margin="10dp"
+                                    android:text="pic1"
+                                    android:id="@+id/pic4"
+                                    />
+                            <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="商品标题"
+                                    android:textSize="10sp"
+                                    android:gravity="center_horizontal"
+                                    android:id="@+id/tv_4"
+                                    />
+                        </LinearLayout>
+                        <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                >
+                            <ImageView
+                                    android:layout_width="65dp"
+                                    android:layout_height="80dp"
+                                    android:background="@drawable/back_color"
+                                    android:layout_margin="10dp"
+                                    android:text="pic5"
+                                    android:id="@+id/pic5"
+                                    />
+                            <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="商品标题"
+                                    android:textSize="10sp"
+                                    android:gravity="center_horizontal"
+                                    android:id="@+id/tv_5"
+                                    />
+                        </LinearLayout>
+                        <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                >
+                            <ImageView
+                                    android:layout_width="65dp"
+                                    android:layout_height="80dp"
+                                    android:background="@drawable/back_color"
+                                    android:layout_margin="10dp"
+                                    android:text="pic1"
+                                    android:id="@+id/pic6"
+                                    />
+                            <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="商品标题"
+                                    android:gravity="center_horizontal"
+                                    android:textSize="10sp"
+                                    android:id="@+id/tv_6"
+                                    />
+                        </LinearLayout>
+                        <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                >
+                            <ImageView
+                                    android:layout_width="65dp"
+                                    android:layout_height="80dp"
+                                    android:background="@drawable/back_color"
+                                    android:layout_margin="10dp"
+                                    android:text="pic1"
+                                    android:id="@+id/pic7"
+                                    />
+                            <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="商品标题"
+                                    android:gravity="center_horizontal"
+                                    android:id="@+id/tv_7"
+                                    android:textSize="10sp"
+                                    />
+                        </LinearLayout>
+                        <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                >
+                            <ImageView
+                                    android:layout_width="65dp"
+                                    android:layout_height="80dp"
+                                    android:background="@drawable/back_color"
+                                    android:layout_margin="10dp"
+                                    android:text="pic1"
+                                    android:id="@+id/pic8"
+                                    />
+                            <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="商品标题"
+                                    android:gravity="center_horizontal"
+                                    android:id="@+id/tv_8"
+                                    android:textSize="10sp"
+                                    />
+                        </LinearLayout>
+
+
+                    </GridLayout>
+
+
+
+</LinearLayout>
+
+
+                //second
+
+
+<LinearLayout android:layout_width="fill_parent"
+              android:orientation="vertical"
+              android:layout_height="240dp"
+              android:layout_marginTop="10dp"
+        >
+    <RelativeLayout android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/buttonblue9"
+
+            >
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="fill_parent"
+                  android:text="现金购"
+                  android:textSize="20sp"
+                  android:layout_alignParentLeft="true"
+                  android:gravity="center"
+
+                />
+        <TextView android:layout_width="wrap_content" android:layout_height="fill_parent"
+                  android:text="查看更多"
+                  android:textSize="10sp"
+                  android:layout_alignParentRight="true"
+                  android:gravity="center"
+                />
+    </RelativeLayout>
+
+
+    <GridLayout  android:columnCount="4"
+                 android:rowCount="2"
+                 android:orientation="horizontal"
+                 android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+            <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/back_color"
+                    android:layout_margin="10dp"
+                    android:text="pic1"
+                    android:id="@+id/pic9"
+                    />
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="商品标题"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/tv_9"
+                    android:textSize="10sp"
+                    />
+        </LinearLayout> <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+        <ImageView
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:background="@drawable/back_color"
+                android:layout_margin="10dp"
+                android:text="pic1"
+                android:id="@+id/pic10"
+                />
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="商品标题"
+                android:gravity="center_horizontal"
+                android:id="@+id/tv_10"
+                android:textSize="10sp"
+                />
+    </LinearLayout> <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+        <ImageView
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:background="@drawable/back_color"
+                android:layout_margin="10dp"
+                android:text="pic1"
+                android:id="@+id/pic11"
+                />
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="商品标题"
+                android:gravity="center_horizontal"
+                android:id="@+id/tv_11"
+                android:textSize="10sp"
+                />
+    </LinearLayout> <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+        <ImageView
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:background="@drawable/back_color"
+                android:layout_margin="10dp"
+                android:text="pic1"
+                android:id="@+id/pic12"
+                />
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="商品标题"
+                android:gravity="center_horizontal"
+                android:id="@+id/tv_12"
+                android:textSize="10sp"
+                />
+    </LinearLayout> <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+        <ImageView
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:background="@drawable/back_color"
+                android:layout_margin="10dp"
+                android:text="pic1"
+                android:id="@+id/pic13"
+                />
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="商品标题"
+                android:gravity="center_horizontal"
+                android:id="@+id/tv_13"
+                android:textSize="10sp"
+                />
+    </LinearLayout> <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+        <ImageView
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:background="@drawable/back_color"
+                android:layout_margin="10dp"
+                android:text="pic1"
+                android:id="@+id/pic14"
+                />
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="商品标题"
+                android:gravity="center_horizontal"
+                android:id="@+id/tv_14"
+                android:textSize="10sp"
+                />
+    </LinearLayout> <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+        <ImageView
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:background="@drawable/back_color"
+                android:layout_margin="10dp"
+                android:text="pic1"
+                android:id="@+id/pic15"
+                />
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="商品标题"
+                android:gravity="center_horizontal"
+                android:id="@+id/tv_15"
+                android:textSize="10sp"
+                />
+    </LinearLayout> <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+        <ImageView
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:background="@drawable/back_color"
+                android:layout_margin="10dp"
+                android:text="pic1"
+                android:id="@+id/pic16"
+                />
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="商品标题"
+                android:gravity="center_horizontal"
+                android:id="@+id/tv_16"
+                android:textSize="10sp"
+                />
+    </LinearLayout>
+
+
+
+    </GridLayout>
+
+
+</LinearLayout>
+
+
+//third
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="fill_parent"
+                              android:orientation="vertical"
+                        >
+                    <LinearLayout android:layout_width="fill_parent"
+                                  android:layout_height="220dp"
+                                  android:layout_marginTop="10dp"
+                                  android:orientation="vertical"
+                            >
+                        <RelativeLayout android:layout_width="fill_parent"
+                                        android:layout_height="40dp"
+                                        android:background="@drawable/buttonblue9"
+
+                                >
+                            <TextView android:layout_width="wrap_content"
+                                      android:layout_height="fill_parent"
+                                      android:text="信誉商家"
+                                      android:textSize="20sp"
+                                      android:layout_alignParentLeft="true"
+                                      android:gravity="center"
+                                    />
+                            <TextView android:layout_width="wrap_content" android:layout_height="fill_parent"
+                                      android:text="查看更多"
+                                      android:textSize="10sp"
+                                      android:layout_alignParentRight="true"
+                                      android:gravity="center"
+                                    />
+
+                        </RelativeLayout>
+                        <GridLayout  android:columnCount="4"
+                                     android:rowCount="2"
+                                     android:orientation="horizontal"
+                                     android:layout_width="fill_parent" android:layout_height="fill_parent">
+                            <ImageView
+                                    android:layout_width="65dp"
+                                    android:layout_height="80dp"
+                                    android:background="@drawable/back_color"
+                                    android:layout_margin="10dp"
+                                    android:text="pic1"/>
+                            <ImageView
+                                    android:layout_width="65dp"
+                                    android:layout_height="80dp"
+                                    android:background="@drawable/back_color"
+                                    android:layout_margin="10dp"
+                                    android:text="pic1"/>
+                            <ImageView
+                                    android:layout_width="65dp"
+                                    android:layout_height="80dp"
+                                    android:background="@drawable/back_color"
+                                    android:layout_margin="10dp"
+                                    android:text="pic1"/>
+                            <ImageView
+                                    android:layout_width="65dp"
+                                    android:layout_height="80dp"
+                                    android:background="@drawable/back_color"
+                                    android:layout_margin="10dp"
+                                    android:text="pic1"/>
+                            <ImageView
+                                    android:layout_width="65dp"
+                                    android:layout_height="80dp"
+                                    android:background="@drawable/back_color"
+                                    android:layout_margin="10dp"
+                                    android:text="pic1"/>
+                            <ImageView
+                                    android:layout_width="65dp"
+                                    android:layout_height="80dp"
+                                    android:background="@drawable/back_color"
+                                    android:layout_margin="10dp"
+                                    android:text="pic1"/>
+                            <ImageView
+                                    android:layout_width="65dp"
+                                    android:layout_height="80dp"
+                                    android:background="@drawable/back_color"
+                                    android:layout_margin="10dp"
+                                    android:text="pic1"/>
+                            <ImageView
+                                    android:layout_width="65dp"
+                                    android:layout_height="80dp"
+                                    android:background="@drawable/back_color"
+                                    android:layout_margin="10dp"
+                                    android:text="pic1"/>
+
+
+                        </GridLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
